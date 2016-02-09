@@ -1,0 +1,67 @@
+/*Main Menu*/
+#menuMain {
+	text-align:center;
+	display:inline-block;
+}
+#backarrow {
+	width:64px;
+	height:64px;
+	float:left;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+/*Showcase*/
+#blockAchievements {
+	text-align:center;
+}
+#blockAchievements p {
+	text-align:center;
+	font-size:24px;
+	font-family:"Arial Black",Gadget,sans-serif;
+}
+#blockAchievements img {
+	margin:auto;
+}
+#blockMotoAv {
+	text-align:center;
+}
+#blockMotoAv p {
+	text-align:center;
+	font-size:24px;
+	font-family:"Arial Black",Gadget,sans-serif;
+}
+#blockMotoAv img {
+	margin:auto;
+	border:2px solid black;
+	border-radius:4px;
+}
+#blockMotoAv button {
+	text-align:center;
+	color:white;
+	background-color:#FF6A00;
+	margin:auto;
+	padding:3px;
+}
+#blockChromeTicker {
+	text-align:center;
+}
+#blockChromeTicker p {
+	font-size:24px;
+	text-align:center;
+	font-family:"Arial Black",Gadget,sans-serif;
+}
+
+/*Ride*/
+
+
+/*Profile*/
+#menuProfile {
+	text-align:center;
+	margin:auto;
+}
+#myAvatar {
+	border:2px solid black;
+	border-radius:4px;
+}
