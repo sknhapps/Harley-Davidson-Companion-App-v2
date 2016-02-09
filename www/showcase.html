@@ -3,31 +3,32 @@
 		<title>Showcase</title>
 		<link href="css/index.css" type="text/css" rel="stylesheet" />
 		<script src="js/index.js"></script>
-		<!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />-->
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 	</head>
 	<body>
-		<!--Achievements Display-->
-		<div id="blockAchievements">
-			<p>Achievements</p>
-			<img id="trophies" alt="Nothing to Display" src=""></img>
+		<div>
+			<!--Achievements Display-->
+			<div id="blockAchievements">
+				<p>Achievements</p>
+				<img id="trophies" alt="Nothing to Display" src=""></img>
+			</div>
+			
+			<!--Motorcycle Avatar / Controls-->
+			<div id="blockMotoAv">
+				<!--MotoName-->
+				<p>"<span id="motoName">My Motorcycle</span>"</p>
+				<!--MotoAvatar-->
+				<img src="" alt="Motorcycle Avatar"></img>
+				<br></br>
+				<!--MotoControls-->
+				<button type="button" id="buttonMotoName" onclick="motoName();">Rename Motorcycle</button>
+			</div>
+			
+			<!--Chromepoint Display-->
+			<div id="blockChromeTicker">
+				<p>Chromepoints: <span id="chromepoints">0</span></p>
+			</div>	
 		</div>
-		
-		<!--Motorcycle Avatar / Controls-->
-		<div id="blockMotoAv">
-			<!--MotoName-->
-			<p>"<span id="motoName">My Motorcycle</span>"</p>
-			<!--MotoAvatar-->
-			<img src="" alt="Motorcycle Avatar"></img>
-			<br></br>
-			<!--MotoControls-->
-			<button type="button" id="buttonMotoName" onclick="motoName();">Rename Motorcycle</button>
-		</div>
-		
-		<!--Chromepoint Display-->
-		<div id="blockChromeTicker">
-			<p>Chromepoints: <span id="chromepoints">0</span></p>
-		</div>	
-		
 		<!--BackArrow-->
 		<img src="img/back.png" alt="back" onclick="goBack();" id="backarrow"></img>
 	</body>
